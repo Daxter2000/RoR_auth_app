@@ -1,4 +1,4 @@
-class RegristrationsController < ApplicationController
+class RegistrationsController < ApplicationController
 
     def create
         user = User.create!(
@@ -15,4 +15,5 @@ class RegristrationsController < ApplicationController
         else
             render json: {status: 500 }
         end
+    end
 end
