@@ -1,4 +1,4 @@
-class RegistrationsController < ApplicationController
+class Auth::RegistrationsController < ApplicationController
     
     def create
         user = User.create!(
