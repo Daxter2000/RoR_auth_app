@@ -1,24 +1,7 @@
-# README
+# This is a Scaffold project that includes a rails authentication to implement as a RAILS API
+## Gems used:
+## -CORS
+## -BCRYPT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## This rails app is connected to a React project (https://github.com/Daxter2000/React_auth_app) that communicates with the API and makes http request to # make sure that the user has signed in
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
