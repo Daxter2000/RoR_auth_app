@@ -1,4 +1,4 @@
-class Company::CompanyController < ApplicationController 
+class Companies::CompaniesController < ApplicationController 
     include CurrentUserConcern
 
     def get
