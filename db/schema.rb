@@ -10,7 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_11_06_011715) do
+ActiveRecord::Schema.define(version: 2022_11_07_032650) do
+
+  create_table "clients", force: :cascade do |t|
+    t.string "names"
+    t.string "ap_pat"
+    t.string "ap_mat"
+    t.string "telefono"
+    t.string "canal"
+    t.string "calle"
+    t.string "colonia"
+    t.string "numero"
+    t.string "referencias"
+    t.string "notas"
+    t.integer "company_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["company_id"], name: "index_clients_on_company_id"
+  end
 
   create_table "companies", force: :cascade do |t|
     t.string "name", limit: 255, null: false
